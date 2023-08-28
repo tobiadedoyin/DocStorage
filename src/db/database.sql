@@ -16,5 +16,4 @@ CREATE TABLE files (
     id SERIAL PRIMARY KEY,
     filename TEXT NOT NULL,
     path TEXT NOT NULL
-    user_id INT REFERENCES users(id) 
 );
